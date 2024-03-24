@@ -158,18 +158,37 @@ a {
     padding-right: 1em;
 }
 
+.contactListBottom {
+    display: flex;
+}
+
+.contactListBottom img {
+    margin-right: 5px;
+}
+
 @media only screen and (max-width: 650px) {
     .contactListTop {
         flex-flow: column wrap;
     }
     .contactListBottom {
-        flex-flow: row wrap;
+        flex-flow: column wrap;
+    }
+    .contactListBottom img {
+        padding-top: 10px;
     }
 }
 
 @media only screen and (min-width: 650px) {
     .contactListBottom {
-        display: flex;
         flex-flow: nowrap;
     }
+}
+
+#email,
+#whatsapp {
+    margin-bottom: -2px;
+}
+
+#linkedin {
+    margin-bottom: -3px;
 }

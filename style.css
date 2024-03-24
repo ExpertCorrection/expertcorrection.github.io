@@ -77,6 +77,11 @@ header #flag {
     align-items: center;
 }
 
+.contactListTop {
+    flex-direction: column;
+    line-height: 2;
+}
+
 #menu>li,
 .contactListTop>li,
 .contactListBottom>li {
@@ -158,37 +163,12 @@ a {
     padding-right: 1em;
 }
 
-.contactListBottom {
-    display: flex;
-}
-
-.contactListBottom img {
-    margin-right: 5px;
-}
-
-@media only screen and (max-width: 650px) {
-    .contactListTop {
-        flex-flow: column wrap;
-    }
-    .contactListBottom {
-        flex-flow: column wrap;
-    }
-    .contactListBottom img {
-        padding-top: 10px;
-    }
-}
-
-@media only screen and (min-width: 650px) {
-    .contactListBottom {
-        flex-flow: nowrap;
-    }
-}
-
-#email,
-#whatsapp {
+#email {
     margin-bottom: -2px;
+    padding-right: 6px;
 }
 
 #linkedin {
     margin-bottom: -3px;
+    margin-top: 10px;
 }

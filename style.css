@@ -79,7 +79,7 @@ header #flag {
 
 .contactListTop {
     flex-direction: column;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 #menu>li,

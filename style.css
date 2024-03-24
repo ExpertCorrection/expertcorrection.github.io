@@ -17,6 +17,9 @@ body {
     body {
         padding: 0.5em;
     }
+    .contactList {
+        flex-flow: column wrap;
+    }
 }
 
 @media only screen and (min-width: 650px) {
@@ -137,7 +140,8 @@ a {
     margin: 1em 0;
 }
 
-#request ul {
+#request ul,
+#pricing ul {
     list-style: inside;
 }
 

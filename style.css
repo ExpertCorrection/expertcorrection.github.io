@@ -149,8 +149,11 @@ a {
     margin: 1em 0;
 }
 
-#request ul,
-#pricing ul {
+#request ul {
+    list-style: inside;
+}
+
+.presentationList li {
     list-style: inside;
 }
 
